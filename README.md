@@ -4,7 +4,7 @@ I organized this take-home package to match the brief's
 `your-submission/` layout.
 
 ```text
-submition/
+FlamAI-AI-Assignment/
   NOTEBOOK.md          chronological lab log
   AI_USAGE.md          how I used Cursor and its agent
   README.md            this file
