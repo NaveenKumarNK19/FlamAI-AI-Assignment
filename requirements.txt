@@ -1,0 +1,6 @@
+tiktoken==0.14.0
+transformers==5.9.0
+regex==2026.5.9
+nbformat==5.10.4
+nbclient==0.10.2
+ipython==8.39.0

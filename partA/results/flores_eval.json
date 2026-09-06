@@ -1,0 +1,180 @@
+{
+  "tokenizers": {
+    "gpt2": {
+      "eng": {
+        "tokens": 25741,
+        "sentences": 997,
+        "tok_per_word": 1.2284528013744394,
+        "tok_per_grapheme": 0.20560889499496782,
+        "tok_per_utf8_byte": 0.20545135286136165,
+        "tok_per_sentence": 25.818455366098295,
+        "words": 20954,
+        "graphemes": 125194,
+        "utf8_bytes": 125290,
+        "mean_sentence_tokens": 25.818455366098295
+      },
+      "hin": {
+        "tokens": 191828,
+        "sentences": 997,
+        "tok_per_word": 7.795667899378226,
+        "tok_per_grapheme": 2.3278967040434932,
+        "tok_per_utf8_byte": 0.5945574014381354,
+        "tok_per_sentence": 192.40521564694083,
+        "words": 24607,
+        "graphemes": 82404,
+        "utf8_bytes": 322640,
+        "mean_sentence_tokens": 192.40521564694083
+      },
+      "kan": {
+        "tokens": 349772,
+        "sentences": 997,
+        "tok_per_word": 22.668308489954633,
+        "tok_per_grapheme": 4.058762778931733,
+        "tok_per_utf8_byte": 0.9786350613304683,
+        "tok_per_sentence": 350.8244734202608,
+        "words": 15430,
+        "graphemes": 86177,
+        "utf8_bytes": 357408,
+        "mean_sentence_tokens": 350.8244734202608
+      },
+      "tam": {
+        "tokens": 397163,
+        "sentences": 997,
+        "tok_per_word": 24.616524110573945,
+        "tok_per_grapheme": 4.204251220002752,
+        "tok_per_utf8_byte": 0.9959076718614828,
+        "tok_per_sentence": 398.358074222668,
+        "words": 16134,
+        "graphemes": 94467,
+        "utf8_bytes": 398795,
+        "mean_sentence_tokens": 398.358074222668
+      }
+    },
+    "xlm-roberta-base": {
+      "eng": {
+        "tokens": 28995,
+        "sentences": 997,
+        "tok_per_word": 1.383745346950463,
+        "tok_per_grapheme": 0.23160055593718548,
+        "tok_per_utf8_byte": 0.2314230984116849,
+        "tok_per_sentence": 29.08224674022066,
+        "words": 20954,
+        "graphemes": 125194,
+        "utf8_bytes": 125290,
+        "mean_sentence_tokens": 29.08224674022066
+      },
+      "hin": {
+        "tokens": 36634,
+        "sentences": 997,
+        "tok_per_word": 1.4887633600195067,
+        "tok_per_grapheme": 0.44456579777680694,
+        "tok_per_utf8_byte": 0.11354450781056286,
+        "tok_per_sentence": 36.74423269809428,
+        "words": 24607,
+        "graphemes": 82404,
+        "utf8_bytes": 322640,
+        "mean_sentence_tokens": 36.74423269809428
+      },
+      "kan": {
+        "tokens": 39602,
+        "sentences": 997,
+        "tok_per_word": 2.5665586519766688,
+        "tok_per_grapheme": 0.4595425693630551,
+        "tok_per_utf8_byte": 0.11080333960068045,
+        "tok_per_sentence": 39.72116349047141,
+        "words": 15430,
+        "graphemes": 86177,
+        "utf8_bytes": 357408,
+        "mean_sentence_tokens": 39.72116349047141
+      },
+      "tam": {
+        "tokens": 39088,
+        "sentences": 997,
+        "tok_per_word": 2.422709805379943,
+        "tok_per_grapheme": 0.41377412218023224,
+        "tok_per_utf8_byte": 0.09801527100389924,
+        "tok_per_sentence": 39.20561685055166,
+        "words": 16134,
+        "graphemes": 94467,
+        "utf8_bytes": 398795,
+        "mean_sentence_tokens": 39.20561685055166
+      }
+    }
+  },
+  "nfc": {
+    "eng": {
+      "lines": 997,
+      "lines_changed_by_nfc": 0,
+      "tokens_as_shipped": 25741,
+      "tokens_after_nfc": 25741,
+      "tokens_if_nfd": 25769,
+      "chars_as_shipped": 125194,
+      "chars_if_nfd": 125210,
+      "token_delta_nfc": 0,
+      "char_delta_nfd": 16
+    },
+    "hin": {
+      "lines": 997,
+      "lines_changed_by_nfc": 90,
+      "tokens_as_shipped": 191589,
+      "tokens_after_nfc": 191828,
+      "tokens_if_nfd": 191832,
+      "chars_as_shipped": 125366,
+      "chars_if_nfd": 125498,
+      "token_delta_nfc": 239,
+      "char_delta_nfd": 132
+    },
+    "kan": {
+      "lines": 997,
+      "lines_changed_by_nfc": 10,
+      "tokens_as_shipped": 349823,
+      "tokens_after_nfc": 349772,
+      "tokens_if_nfd": 364273,
+      "chars_as_shipped": 131766,
+      "chars_if_nfd": 136584,
+      "token_delta_nfc": -51,
+      "char_delta_nfd": 4818
+    },
+    "tam": {
+      "lines": 997,
+      "lines_changed_by_nfc": 2,
+      "tokens_as_shipped": 397169,
+      "tokens_after_nfc": 397163,
+      "tokens_if_nfd": 402193,
+      "chars_as_shipped": 146128,
+      "chars_if_nfd": 147804,
+      "token_delta_nfc": -6,
+      "char_delta_nfd": 1676
+    }
+  },
+  "bugs_gpt2": {
+    "eng": {
+      "v0_all_placed": 1.282531089861428,
+      "clear_lower_only": 1.2366599315375235,
+      "clear_empty_only": 1.2825789256765656,
+      "clear_macro_only": 1.2739680267239322,
+      "all_cleared": 1.2284528013744394
+    },
+    "hin": {
+      "v0_all_placed": 7.823186271306331,
+      "clear_lower_only": 7.822543938051382,
+      "clear_empty_only": 7.825973428744358,
+      "clear_macro_only": 7.793386415339617,
+      "all_cleared": 7.795667899378226
+    },
+    "kan": {
+      "v0_all_placed": 22.148288470382347,
+      "clear_lower_only": 22.14667984785178,
+      "clear_empty_only": 22.945630817919056,
+      "clear_macro_only": 21.697183972211885,
+      "all_cleared": 22.668308489954633
+    },
+    "tam": {
+      "v0_all_placed": 24.733182097841922,
+      "clear_lower_only": 24.731406440283575,
+      "clear_empty_only": 24.866899082000568,
+      "clear_macro_only": 24.46498306128734,
+      "all_cleared": 24.616524110573945
+    }
+  }
+}
