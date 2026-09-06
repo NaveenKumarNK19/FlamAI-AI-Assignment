@@ -12,6 +12,7 @@ FlamAI-AI-Assignment/
   partA/               tokenizer audit, notebook, corpus, and A4 memo
   partB/               capacity calculations, notebook, and written answers
   partC/memo.md        ≤1-page register decision
+  starter_kit/         given files
 ```
 
 ## Deliverables
